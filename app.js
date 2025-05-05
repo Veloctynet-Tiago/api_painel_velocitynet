@@ -255,7 +255,6 @@ app.get(
 
 app.post(
   "/api/v1/cadidate/post",
-  checkToken,
   upload.single("image"),
   CandidateController.CandidatePost
 )
