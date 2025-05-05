@@ -36,7 +36,7 @@ app.use(cors());
 app.get("/api/v1/", (req, res) => {
   res.status(200).json({ msg: "Bem vindo a nossa api!" });
 });
-
+//fazendo o download do aqrquivo
 app.get("/api/v1/uploads/:nomeDoArquivo", sliderController.verArquivo);
 
 ///////////////////////////////////////////////// SLIDER ///////////////////////////////////////////////////////////
