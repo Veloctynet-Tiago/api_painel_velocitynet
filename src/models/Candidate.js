@@ -10,5 +10,5 @@ const Candidate = mongoose.model("candidate", {
   anexo: String,
   dataEnvio: Date
 });
-//exportar os dados 
+//exportar os dados candidate
 module.exports = Candidate;
